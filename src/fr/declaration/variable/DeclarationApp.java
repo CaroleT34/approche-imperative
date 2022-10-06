@@ -14,6 +14,16 @@ public class DeclarationApp {
 		String monString = "Voici le résultat: \n1+5=6!";
 
 		System.out.println(monString);
+		
+		int nb = 7; //7/2 = 3 et il reste 1
+		System.out.println(nb%2); // modulo % affiche le reste (si reste = chiffre impaire)
+		
+		int nb2 = 8; 
+		nb2++;
+		System.out.println("On a bien le résultat "+ nb2);
+		
+		String resultString = "indice " + c ;
+		System.out.println(resultString);
 	}
 
 }
